@@ -1,9 +1,9 @@
 function setNewImage(){
-    document.getElementById("imgevo").src="template/image/xanh.png"
+    document.getElementById("imgevo").src="./template/image/xanh.png"
 }
 
 function setOldImage(){
-    document.getElementById("imgevo").src="template/image/den.png"
+    document.getElementById("imgevo").src="./template/image/den.png"
 }
 
 var src = ['red', 'green', 'blue', 'white', 'brown', 'pink']
