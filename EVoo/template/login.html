@@ -1,51 +1,61 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EVo | Log In</title>
-    <link rel="stylesheet" href="./index.css">
-    <script src="./code.js"></script>
-</head>
-<body>
-    <div class="header1">
-        <a href="../index.html">
-            <img id="imgevo" src="./image/den.png" 
-        alt="logo"
-        width="30px"
-        height="45px">
-        </a>
-    </div>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.80.0">
+    <title>EVo | Sign In</title>
 
-    <div id="sloganbar">
-        <p>CREATING THE BEST DAY EVER</p>
-    </div>
-
-    <div class="homebar">
-        <ul>
-            <li><a href ="../index.html">News</a></li>
-            <li><a href ="https://www.facebook.com/groups/evoeventclub" target="_blank">Group</a></li>
-            <li><a href = "https://www.facebook.com/FPTUDNEventClub" target="_blank">Fanpage</a></li>
-            <li><a href = "#">About us</a></li>
-            <li><a href = "#">Log In</a></li>
-        </ul>
-    </div>
-
-    <div class="loginbar">
-        <p>Log In</p>
-    </div>
-
-    <div class="leftbar">
-        <h1>Welcome back</h1><br>
-        <form>
-            <input type="text" id="msevo" placeholder="Mã số thành viên EVo"><br>
-            <input type="password" id="passevo" placeholder="Mật khẩu"><br>
-            <input type="submit" value="Log In">
-        </form>
-    </div>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
 
     
 
-</body>
+    <!-- Bootstrap core CSS -->
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+<main class="form-signin">
+  <form>
+    <a href="../index.html"><img class="mb-4" src="./image/den.png" alt="" width="38" height="57"></a>
+    <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+    <label for="inputEmail" class="visually-hidden">Club Code</label>
+    <input type="email" id="inputCCode" class="form-control" placeholder="Club Code" required autofocus>
+    <label for="inputPassword" class="visually-hidden">Password</label>
+    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign in</button>
+    <p class="mt-5 mb-3 text-muted">&copy; EVo - 2021</p>
+  </form>
+</main>
+
+
+    
+  </body>
 </html>

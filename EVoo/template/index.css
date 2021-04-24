@@ -112,12 +112,13 @@
 .anhclbevo{
     height: 40%;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .anhclbevo .slide-nav{
     position: absolute;
     bottom: 0;
-    left: 225px;
   }
   
   .anhclbevo .slide-area{
